@@ -25,8 +25,7 @@ class Solution {
                     else
                         left = mid + 1;
                 }
-                return false; // row was right, value isn't in it
-            }
+                return false;            }
         }
         return false;
     }
